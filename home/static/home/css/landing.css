@@ -1,0 +1,364 @@
+.mediaViewInfo {
+    --web-view-name: Landing Page;
+    --web-view-id: Landing_Page;
+    --web-scale-on-resize: true;
+    --web-enable-deep-linking: true;
+}
+:root {
+    --web-view-ids: Landing_Page;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+#Landing_Page {
+    position: absolute;
+    width: 1920px;
+    height: 1080px;
+    background-color: rgb(0, 0, 0);
+    overflow: hidden;
+    --web-view-name: Landing Page;
+    --web-view-id: Landing_Page;
+    --web-scale-on-resize: true;
+    --web-enable-deep-linking: true;
+}
+@keyframes fadein {
+
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+
+}
+.Ellipse_1 {
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.89));
+    display: none;
+    position: absolute;
+    overflow: visible;
+    width: 256px;
+    height: 258px;
+    left: 841px;
+    top: 420px;
+}
+#gtaback {
+    filter: blur(1px);
+    position: absolute;
+    width: 1920px;
+    height: 1080px;
+    left: 0px;
+    top: 0px;
+    overflow: hidden;
+}
+/* #Background_Blur {
+    filter: blur(1px);
+} */
+.Background_Blur {
+    position: absolute;
+    overflow: visible;
+    width: 1920px;
+    height: 1080px;
+    left: 0px;
+    top: 0px;
+}
+.ID001_youtube {
+    overflow: visible;
+    position: absolute;
+    width: 71.251px;
+    height: 54.9px;
+    left: 95.749px;
+    top: 29px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Rectangle_23 {
+    filter: blur(8px);
+}
+.Rectangle_23 {
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 1));
+    display: none;
+    position: absolute;
+    overflow: visible;
+    width: 232px;
+    height: 88px;
+    left: 580px;
+    top: 649px;
+    --web-animation: fadein 0.3s ease-out;
+    --web-action-type: page;
+    --web-action-target: Play.html;
+    cursor: pointer;
+}
+#Rectangle_1 {
+    filter: blur(8px);
+}
+.Rectangle_1 {
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 1));
+    display: none;
+    position: absolute;
+    overflow: visible;
+    width: 232px;
+    height: 88px;
+    left: 854px;
+    top: 651px;
+}
+#Rectangle_3 {
+    filter: blur(8px);
+}
+.Rectangle_3 {
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 1));
+    display: none;
+    position: absolute;
+    overflow: visible;
+    width: 232px;
+    height: 88px;
+    left: 1128px;
+    top: 651px;
+    --web-animation: fadein 0.3s ease-out;
+    --web-action-type: page;
+    --web-action-target: Store.html;
+    cursor: pointer;
+}
+#Play {
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.388));
+    position: absolute;
+    left: 637px;
+    top: 658px;
+    overflow: hidden;
+    width: 101px;
+    height: 53px;
+    --web-animation: fadein 0.3s ease-in-out;
+    --web-action-type: page;
+    --web-action-target: Play.html;
+    cursor: pointer;
+    text-align: left;
+    font-family: Lucida Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    color: rgba(190,190,190,1);
+}
+#Forum {
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.388));
+    position: absolute;
+    left: 883px;
+    top: 658px;
+    overflow: hidden;
+    width: 157px;
+    height: 53px;
+    --web-animation: fadein 0.3s ease-out;
+    --web-action-type: page;
+    --web-action-target: Forum.html;
+    cursor: pointer;
+    text-align: left;
+    font-family: Lucida Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    color: rgba(190,190,190,1);
+}
+#Store {
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.388));
+    position: absolute;
+    left: 1172px;
+    top: 658px;
+    overflow: hidden;
+    width: 127px;
+    height: 53px;
+    --web-animation: fadein 0.3s ease-out;
+    --web-action-type: page;
+    --web-action-target: Store.html;
+    cursor: pointer;
+    text-align: left;
+    font-family: Lucida Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    color: rgba(190,190,190,1);
+}
+#IllegitimateServers {
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.425)) blur(1px);
+    position: absolute;
+    left: 731px;
+    top: 310px;
+    overflow: hidden;
+    width: 460px;
+    height: 74px;
+    text-align: left;
+    font-family: Monotype Corsiva;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 68px;
+    color: rgb(141, 140, 140) !important;
+    opacity: 80% !important;
+}
+#UpdatedLogo {
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.549)) blur(.4px);
+    position: absolute;
+    width: 264px;
+    height: 263px;
+    left: 828px;
+    top: 370px;
+    overflow: visible;
+    opacity: 70%;
+}
+#ID006_snapchat {
+    position: absolute;
+    width: 54.9px;
+    height: 54.9px;
+    left: 177.526px;
+    top: 29px;
+    overflow: visible;
+}
+#Group_1 {
+    position: absolute;
+    width: 54.9px;
+    height: 54.9px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+.Path_4 {
+    overflow: visible;
+    position: absolute;
+    width: 54.9px;
+    height: 54.9px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#ID002_instagram {
+    position: absolute;
+    width: 54.896px;
+    height: 54.9px;
+    left: 30.104px;
+    top: 29px;
+    overflow: visible;
+}
+.Path_1 {
+    overflow: visible;
+    position: absolute;
+    width: 54.896px;
+    height: 54.9px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+.Path_2 {
+    overflow: visible;
+    position: absolute;
+    width: 28.21px;
+    height: 28.203px;
+    left: 13.354px;
+    top: 13.354px;
+    transform: matrix(1,0,0,1,0,0);
+}
+.Path_3 {
+    overflow: visible;
+    position: absolute;
+    width: 6.586px;
+    height: 6.586px;
+    left: 38.829px;
+    top: 9.502px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#ID005_twitter {
+    position: absolute;
+    width: 54.9px;
+    height: 54.9px;
+    left: 243.385px;
+    top: 29px;
+    overflow: visible;
+}
+#Group_2 {
+    position: absolute;
+    width: 54.9px;
+    height: 54.9px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+.Path_5 {
+    overflow: visible;
+    position: absolute;
+    width: 54.9px;
+    height: 54.9px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+.Line_1 {
+    filter: drop-shadow(0px 5px 6px rgba(0, 0, 0, 1));
+    overflow: visible;
+    position: absolute;
+    width: 123px;
+    height: 19px;
+    left: 637.4px;
+    top: 703px;
+    transform: matrix(1,0,0,1,0,0);
+}
+.Line_2 {
+    filter: drop-shadow(0px 5px 6px rgba(0, 0, 0, 1));
+    overflow: visible;
+    position: absolute;
+    width: 178.8px;
+    height: 19px;
+    left: 883px;
+    top: 703px;
+    transform: matrix(1,0,0,1,0,0);
+}
+.Line_3 {
+    filter: drop-shadow(0px 5px 6px rgba(0, 0, 0, 1));
+    overflow: visible;
+    position: absolute;
+    width: 150px;
+    height: 19px;
+    left: 1171.8px;
+    top: 703px;
+    transform: matrix(1,0,0,1,0,0);
+}
+
+.hvr-bounce-to-top {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    color: rgba(190, 190, 190, 0.548);
+  }
+  .hvr-bounce-to-top:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(112, 112, 112, 0.658);
+    -webkit-transform: scaleY(0);
+    transform: scaleY(0);
+    -webkit-transform-origin: 50% 100%;
+    transform-origin: 50% 100%;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+    
+  }
+  .hvr-bounce-to-top:hover, .hvr-bounce-to-top:focus, .hvr-bounce-to-top:active {
+    color: white;
+  }
+  .hvr-bounce-to-top:hover:before, .hvr-bounce-to-top:focus:before, .hvr-bounce-to-top:active:before {
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
+    -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+    transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+  }

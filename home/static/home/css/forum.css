@@ -1,0 +1,1001 @@
+.mediaViewInfo {
+    --web-view-name: Forum;
+    --web-view-id: Forum;
+    --web-scale-on-resize: true;
+    --web-enable-deep-linking: true;
+}
+:root {
+    --web-view-ids: Forum;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+#Forum {
+    position: absolute;
+    width: 1920px;
+    height: 1080px;
+    top: -2%;
+    overflow: hidden;
+    --web-view-name: Forum;
+    --web-view-id: Forum;
+    --web-scale-on-resize: true;
+    --web-enable-deep-linking: true;
+}
+@keyframes fadein {
+
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+
+}
+#gradient {
+    position: absolute;
+    width: 1920px;
+    height: 1080px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Rectangle_52 {
+    filter: blur(40px);
+}
+body{
+    background-image: url(/static/home/img/gradient1.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.Rectangle_52 {
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.651));
+    position: absolute;
+    overflow: visible;
+    width: 61%;
+    height: 9.5%;
+    left: 21%;
+    top: 7%;
+}
+#IllegitimateForums {
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.478));
+    position: absolute;
+    left: 3%;
+    top: 14%;
+    overflow: visible;
+    width: 50%;
+    height: 12%;
+    text-align: left;
+    font-family: Lucida Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3rem;
+    color: rgba(174,174,174,0.941);
+}
+#Rectangle_11 {
+    filter: blur(40px);
+}
+.Rectangle_11 {
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.651));
+    position: absolute;
+    overflow: visible;
+    width: 33%;
+    height: 36%;
+    left: 21%;
+    top: 16%;
+}
+/* #CHAT_BOX {
+    position: absolute;
+    left: 569px;
+    top: 323px;
+    overflow: visible;
+    width: 286px;
+    height: 66px;
+    text-align: left;
+    font-family: Lucida Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 55px;
+    color: rgba(190,182,182,1);
+} */
+#Rectangle_12 {
+    filter: blur(40px);
+}
+.Rectangle_12 {
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.651));
+    position: absolute;
+    overflow: visible;
+    width: 360px;
+    height: 387px;
+    left: 678px;
+    top: 603px;
+}
+#Online_Users {
+    position: absolute;
+    left: 737px;
+    top: 612px;
+    overflow: hidden;
+    width: 236px;
+    height: 39px;
+    text-align: left;
+    font-family: Lucida Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 38px;
+    color: rgba(190,182,182,1);
+}
+#Rectangle_16 {
+    filter: blur(40px);
+}
+.Rectangle_16 {
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.651));
+    position: absolute;
+    overflow: visible;
+    width: 226px;
+    height: 394px;
+    left: 403px;
+    top: 603px;
+}
+#Recent_Members {
+    position: absolute;
+    left: 407px;
+    top: 611px;
+    overflow: visible;
+    width: 202px;
+    height: 28px;
+    text-align: left;
+    font-family: Lucida Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    color: rgba(190,182,182,1);
+}
+#Group_4 {
+    position: absolute;
+    width: 10%;
+    height: 5%;
+    left: 79%;
+    top: 9.9%;
+    overflow: visible;
+    --web-animation: fadein 0.3s ease-out;
+    --web-action-type: page;
+    --web-action-target: Landing_Page.html;
+    cursor: pointer;
+}
+.Line_5 {
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.49));
+    overflow: visible;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: -15px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+.Line_6 {
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.49));
+    overflow: visible;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: -15px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+.Rectangle_27 {
+    position: absolute;
+    overflow: visible;
+    width: 47px;
+    height: 44px;
+    left: 424px;
+    top: 663px;
+}
+.Rectangle_28 {
+    position: absolute;
+    overflow: visible;
+    width: 47px;
+    height: 44px;
+    left: 424px;
+    top: 725px;
+}
+.Rectangle_29 {
+    position: absolute;
+    overflow: visible;
+    width: 47px;
+    height: 44px;
+    left: 424px;
+    top: 787px;
+}
+.Rectangle_30 {
+    position: absolute;
+    overflow: visible;
+    width: 47px;
+    height: 44px;
+    left: 424px;
+    top: 849px;
+}
+.Rectangle_31 {
+    position: absolute;
+    overflow: visible;
+    width: 47px;
+    height: 44px;
+    left: 424px;
+    top: 911px;
+}
+#Member {
+    position: absolute;
+    left: 488px;
+    top: 672px;
+    overflow: visible;
+    width: 82px;
+    height: 28px;
+    text-align: left;
+    font-family: Lucida Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(190,182,182,1);
+}
+#Member_ {
+    position: absolute;
+    left: 488px;
+    top: 734px;
+    overflow: visible;
+    width: 82px;
+    height: 28px;
+    text-align: left;
+    font-family: Lucida Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(190,182,182,1);
+}
+#Member_ba {
+    position: absolute;
+    left: 488px;
+    top: 796px;
+    overflow: visible;
+    width: 82px;
+    height: 28px;
+    text-align: left;
+    font-family: Lucida Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(190,182,182,1);
+}
+#Member_bb {
+    position: absolute;
+    left: 488px;
+    top: 858px;
+    overflow: visible;
+    width: 82px;
+    height: 28px;
+    text-align: left;
+    font-family: Lucida Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(190,182,182,1);
+}
+#Member_bc {
+    position: absolute;
+    left: 488px;
+    top: 920px;
+    overflow: visible;
+    width: 82px;
+    height: 28px;
+    text-align: left;
+    font-family: Lucida Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(190,182,182,1);
+}
+.Rectangle_32 {
+    position: absolute;
+    overflow: visible;
+    width: 47px;
+    height: 44px;
+    left: 777px;
+    top: 678px;
+}
+#Admin {
+    position: absolute;
+    left: 841px;
+    top: 687px;
+    overflow: visible;
+    width: 82px;
+    height: 28px;
+    text-align: left;
+    font-family: Lucida Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(190,182,182,1);
+}
+.Line_8 {
+    overflow: visible;
+    position: absolute;
+    width: 261px;
+    height: 1px;
+    left: 744.5px;
+    top: 810.5px;
+    transform: matrix(1,0,0,1,0,0);
+}
+.Rectangle_33 {
+    position: absolute;
+    overflow: visible;
+    width: 47px;
+    height: 44px;
+    left: 777px;
+    top: 742px;
+}
+#Moderator {
+    position: absolute;
+    left: 841px;
+    top: 751px;
+    overflow: visible;
+    width: 105px;
+    height: 28px;
+    text-align: left;
+    font-family: Lucida Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(190,182,182,1);
+}
+.Rectangle_34 {
+    position: absolute;
+    overflow: visible;
+    width: 47px;
+    height: 44px;
+    left: 777px;
+    top: 838px;
+}
+#Member_bd {
+    position: absolute;
+    left: 841px;
+    top: 847px;
+    overflow: visible;
+    width: 82px;
+    height: 28px;
+    text-align: left;
+    font-family: Lucida Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(190,182,182,1);
+}
+.Rectangle_35 {
+    position: absolute;
+    overflow: visible;
+    width: 47px;
+    height: 44px;
+    left: 777px;
+    top: 902px;
+}
+#Member_be {
+    position: absolute;
+    left: 841px;
+    top: 911px;
+    overflow: visible;
+    width: 82px;
+    height: 28px;
+    text-align: left;
+    font-family: Lucida Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(190,182,182,1);
+}
+.Line_9 {
+    overflow: visible;
+    position: absolute;
+    width: 185.005px;
+    height: 2px;
+    left: 414.5px;
+    top: 650.5px;
+    transform: matrix(1,0,0,1,0,0);
+}
+.Line_10 {
+    overflow: visible;
+    position: absolute;
+    width: 221px;
+    height: 1px;
+    left: 744.5px;
+    top: 663.5px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Rectangle_36 {
+    filter: blur(40px);
+}
+.Rectangle_36 {
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.651));
+    position: absolute;
+    overflow: visible;
+    width: 499px;
+    height: 387px;
+    left: 1074px;
+    top: 171px;
+}
+#vice {
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.651));
+    position: absolute;
+    width: 400px;
+    height: 225px;
+    left: 1115px;
+    top: 187px;
+    overflow: visible;
+}
+#GTA_5_RP_Vice_City {
+    position: absolute;
+    left: 1122px;
+    top: 416px;
+    overflow: hidden;
+    width: 236px;
+    height: 26px;
+    text-align: left;
+    font-family: Lucida Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    color: rgba(209,208,208,1);
+}
+#Public___Posted_by_Leonardo_We {
+    opacity: 0.84;
+    position: absolute;
+    left: 1130px;
+    top: 442px;
+    overflow: visible;
+    width: 202px;
+    height: 16px;
+    text-align: left;
+    font-family: Lucida Sans;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 12px;
+    color: rgba(178,178,178,0.851);
+}
+#A_surreal_experience_of_rolepl {
+    position: absolute;
+    left: 1130px;
+    top: 462px;
+    overflow: visible;
+    width: 371px;
+    height: 37px;
+    text-align: left;
+    font-family: Lucida Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    color: rgba(193,193,193,1);
+}
+.comment {
+    overflow: visible;
+    position: absolute;
+    width: 12.363px;
+    height: 12.363px;
+    left: 1174px;
+    top: 516px;
+    transform: matrix(1,0,0,1,0,0);
+}
+.heart {
+    overflow: visible;
+    position: absolute;
+    width: 14.305px;
+    height: 12.727px;
+    left: 1134.951px;
+    top: 515px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#share {
+    position: absolute;
+    width: 12.358px;
+    height: 12.363px;
+    left: 1210.634px;
+    top: 516px;
+    overflow: visible;
+}
+#Group_5 {
+    position: absolute;
+    width: 12.358px;
+    height: 12.363px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+.Path_8 {
+    overflow: visible;
+    position: absolute;
+    width: 12.358px;
+    height: 12.363px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+.Line_11 {
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+    overflow: visible;
+    position: absolute;
+    width: 219px;
+    height: 19px;
+    left: 1130.5px;
+    top: 449.5px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Rectangle_46 {
+    filter: blur(40px);
+}
+.Rectangle_46 {
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.651));
+    position: absolute;
+    overflow: visible;
+    width: 499px;
+    height: 93px;
+    left: 1074px;
+    top: 603px;
+}
+#Rectangle_47 {
+    filter: blur(40px);
+}
+.Rectangle_47 {
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.651));
+    position: absolute;
+    overflow: visible;
+    width: 499px;
+    height: 93px;
+    left: 1074px;
+    top: 697px;
+}
+#Rectangle_48 {
+    filter: blur(40px);
+}
+.Rectangle_48 {
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.651));
+    position: absolute;
+    overflow: visible;
+    width: 499px;
+    height: 93px;
+    left: 1074px;
+    top: 791px;
+}
+.Rectangle_49 {
+    position: absolute;
+    overflow: visible;
+    width: 61px;
+    height: 52px;
+    left: 1092px;
+    top: 615px;
+}
+.Rectangle_50 {
+    position: absolute;
+    overflow: visible;
+    width: 61px;
+    height: 52px;
+    left: 1092px;
+    top: 709px;
+}
+.Rectangle_51 {
+    position: absolute;
+    overflow: visible;
+    width: 61px;
+    height: 52px;
+    left: 1092px;
+    top: 803px;
+}
+#May_10th_2020 {
+    position: absolute;
+    left: 1455px;
+    top: 520px;
+    overflow: hidden;
+    width: 61px;
+    height: 8px;
+    text-align: center;
+    font-family: Lucida Sans;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 8px;
+    color: rgba(209,209,209,0.89);
+}
+#Need_Richard {
+    position: absolute;
+    left: 1158px;
+    top: 615px;
+    overflow: hidden;
+    width: 177px;
+    height: 20px;
+    text-align: left;
+    font-family: Lucida Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: rgba(219,219,219,1);
+}
+#Public___Posted_by_HardBoiledS {
+    opacity: 0.67;
+    position: absolute;
+    left: 1163px;
+    top: 638px;
+    overflow: hidden;
+    width: 174px;
+    height: 9px;
+    text-align: left;
+    font-family: Lucida Sans;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 10px;
+    color: rgba(193,191,191,0.859);
+}
+#Add_Fallout_Please {
+    position: absolute;
+    left: 1158px;
+    top: 709px;
+    overflow: hidden;
+    width: 177px;
+    height: 20px;
+    text-align: left;
+    font-family: Lucida Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: rgba(219,219,219,1);
+}
+#Public___Posted_by_IluvFalOutN {
+    opacity: 0.67;
+    position: absolute;
+    left: 1163px;
+    top: 732px;
+    overflow: hidden;
+    width: 166px;
+    height: 9px;
+    text-align: left;
+    font-family: Lucida Sans;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 10px;
+    color: rgba(193,191,191,0.859);
+}
+#Ban_Debra {
+    position: absolute;
+    left: 1158px;
+    top: 803px;
+    overflow: hidden;
+    width: 177px;
+    height: 20px;
+    text-align: left;
+    font-family: Lucida Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: rgba(219,219,219,1);
+}
+#Public___Posted_by_Ash {
+    opacity: 0.67;
+    position: absolute;
+    left: 1163px;
+    top: 826px;
+    overflow: hidden;
+    width: 166px;
+    height: 9px;
+    text-align: left;
+    font-family: Lucida Sans;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 10px;
+    color: rgba(193,191,191,0.859);
+}
+.comment_b {
+    overflow: visible;
+    position: absolute;
+    width: 12.363px;
+    height: 12.363px;
+    left: 1202px;
+    top: 655px;
+    transform: matrix(1,0,0,1,0,0);
+}
+.heart_b {
+    overflow: visible;
+    position: absolute;
+    width: 14.305px;
+    height: 12.727px;
+    left: 1162.951px;
+    top: 654px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#share_b {
+    position: absolute;
+    width: 12.358px;
+    height: 12.363px;
+    left: 1238.634px;
+    top: 655px;
+    overflow: visible;
+}
+#Group_5_b {
+    position: absolute;
+    width: 12.358px;
+    height: 12.363px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+.Path_8_b {
+    overflow: visible;
+    position: absolute;
+    width: 12.358px;
+    height: 12.363px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+.comment_ca {
+    overflow: visible;
+    position: absolute;
+    width: 12.363px;
+    height: 12.363px;
+    left: 1202px;
+    top: 749px;
+    transform: matrix(1,0,0,1,0,0);
+}
+.heart_ca {
+    overflow: visible;
+    position: absolute;
+    width: 14.305px;
+    height: 12.727px;
+    left: 1162.951px;
+    top: 748px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#share_cb {
+    position: absolute;
+    width: 12.358px;
+    height: 12.363px;
+    left: 1238.634px;
+    top: 749px;
+    overflow: visible;
+}
+#Group_5_cc {
+    position: absolute;
+    width: 12.358px;
+    height: 12.363px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+.Path_8_cd {
+    overflow: visible;
+    position: absolute;
+    width: 12.358px;
+    height: 12.363px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+.comment_ce {
+    overflow: visible;
+    position: absolute;
+    width: 12.363px;
+    height: 12.363px;
+    left: 1202px;
+    top: 843px;
+    transform: matrix(1,0,0,1,0,0);
+}
+.heart_cf {
+    overflow: visible;
+    position: absolute;
+    width: 14.305px;
+    height: 12.727px;
+    left: 1162.951px;
+    top: 842px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#share_cg {
+    position: absolute;
+    width: 12.358px;
+    height: 12.363px;
+    left: 1238.634px;
+    top: 843px;
+    overflow: visible;
+}
+#Group_5_ch {
+    position: absolute;
+    width: 12.358px;
+    height: 12.363px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+.Path_8_ci {
+    overflow: visible;
+    position: absolute;
+    width: 12.358px;
+    height: 12.363px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#May_10th_2020_cj {
+    position: absolute;
+    left: 1480px;
+    top: 663px;
+    overflow: hidden;
+    width: 61px;
+    height: 8px;
+    text-align: center;
+    font-family: Lucida Sans;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 8px;
+    color: rgba(209,209,209,0.89);
+}
+#May_10th_2020_ck {
+    position: absolute;
+    left: 1480px;
+    top: 757px;
+    overflow: hidden;
+    width: 61px;
+    height: 8px;
+    text-align: center;
+    font-family: Lucida Sans;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 8px;
+    color: rgba(209,209,209,0.89);
+}
+#May_10th_2020_cl {
+    position: absolute;
+    left: 1480px;
+    top: 851px;
+    overflow: hidden;
+    width: 61px;
+    height: 8px;
+    text-align: center;
+    font-family: Lucida Sans;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 8px;
+    color: rgba(209,209,209,0.89);
+}
+#CircleProfile {
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.549));
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    left: 1242px;
+    top: 86px;
+    overflow: visible;
+}
+.Ellipse_7 {
+    display: none;
+    position: absolute;
+    overflow: visible;
+    width: 57px;
+    height: 58px;
+    left: 1244px;
+    top: 93px;
+}
+#Leonardo_Weller {
+    opacity: 0.84;
+    position: absolute;
+    left: 1304px;
+    top: 106px;
+    overflow: hidden;
+    width: 121px;
+    height: 16px;
+    text-align: left;
+    font-family: Lucida Sans;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 15px;
+    color: rgba(255,255,255,0.851);
+}
+#Posts {
+    opacity: 0.84;
+    position: absolute;
+    left: 1323px;
+    top: 127px;
+    overflow: visible;
+    width: 28px;
+    height: 11px;
+    text-align: left;
+    font-family: Lucida Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    color: rgba(190,188,188,0.851);
+}
+#Karma {
+    opacity: 0.84;
+    position: absolute;
+    left: 1319px;
+    top: 141px;
+    overflow: visible;
+    width: 40px;
+    height: 11px;
+    text-align: left;
+    font-family: Lucida Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    color: rgba(190,188,188,0.851);
+}
+#ID16 {
+    opacity: 0.84;
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.529));
+    position: absolute;
+    left: 1306px;
+    top: 129px;
+    overflow: hidden;
+    width: 12px;
+    height: 7px;
+    text-align: left;
+    font-family: Lucida Fax;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 8px;
+    color: rgba(255,255,255,1);
+}
+#_204 {
+    opacity: 0.84;
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.431));
+    position: absolute;
+    left: 1294px;
+    top: 143px;
+    overflow: hidden;
+    width: 22px;
+    height: 7px;
+    text-align: left;
+    font-family: Lucida Fax;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 8px;
+    color: rgba(0,255,51,1);
+}
+.notification {
+    overflow: visible;
+    position: absolute;
+    width: 11px;
+    height: 13.902px;
+    left: 1430px;
+    top: 108px;
+    transform: matrix(1,0,0,1,0,0);
+}
+
+
+/* BOTTOM FORUMS */
+
+#Rectangle_60 {
+    filter: blur(40px);
+}
+.Rectangle_60 {
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.651));
+    position: relative;
+    overflow: visible;
+    width: 20%;
+    height: 90%;
+    left: 21%;
+    top: 52%;
+}
+
+.hvr-pop {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    cursor: pointer;
+  }
+  .hvr-pop:hover, .hvr-pop:focus, .hvr-pop:active {
+    -webkit-animation-name: hvr-pop;
+    animation-name: hvr-pop;
+    -webkit-animation-duration: 0.3s;
+    animation-duration: 0.3s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+  }
+  
